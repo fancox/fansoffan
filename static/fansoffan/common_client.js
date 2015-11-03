@@ -14,3 +14,19 @@ var NavBar = React.createClass({
     )
   }
 });
+
+var RcFooter = React.createClass({
+  render: function() {
+    return (
+        <div className="rc-footer">
+          <div className="text-center rc-collapse-height">
+            Copyright © Fansoffan 2015 All rights reserved.<br />
+            The Fansoffan content and its associated images are intellectual work of Fansoffan.
+          </div>
+          <div className="pull-right text-right">
+            Contact: [to be added]
+          </div>
+        </div>
+    )
+  }
+});
