@@ -99,6 +99,13 @@ app.get(common.routes.homepage,
     response.sendfile('static/fansoffan/index.html');
   });
 
+
+app.get(common.routes.blog,
+    function(request, response) {
+      //response.redirect(common.routes.example);
+      response.sendfile('static/fansoffan/blog.html');
+    });
+
 app.get('/favicon.png',
   function (request, response) {
     response.sendfile('static/img/favicon.png');
