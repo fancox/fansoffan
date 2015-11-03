@@ -3,3 +3,7 @@ node_modules/*
 .env
 *.pem
 *.csr
+*.xml
+*.iml
+.idea/
+.idea/*

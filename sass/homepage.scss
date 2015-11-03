@@ -1,0 +1,25 @@
+$cover-image-height: 500px;
+
+.cover-image {
+  position: relative;
+  background-color: black;
+  height: $cover-image-height;
+}
+
+.cover-image:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  background-image: url("/img/muffin.jpg");
+  background-position: 0px -200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: $cover-image-height;
+  opacity: 0.7;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
