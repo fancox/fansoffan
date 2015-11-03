@@ -29,24 +29,3 @@ $cover-text-height: 250px;
   background-size: cover;
   z-index: 1;
 }
-
-.main-text {
-  @extend .white-text;
-  @extend .center;
-  padding-top: 50px;
-  z-index: 2;
-  position: relative;
-  font-size: 70px;
-  text-align: center;
-}
-
-.secondary-text {
-  @extend .white-text;
-  @extend .center;
-  padding: 10px 250px;
-  z-index: 2;
-  position: relative;
-  font-size: 15px;
-  font-weight: 200;
-  text-align: center;
-}
