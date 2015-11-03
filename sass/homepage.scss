@@ -1,9 +1,15 @@
 $cover-image-height: 500px;
+$cover-text-height: 400px;
 
 .cover-image {
   position: relative;
   background-color: black;
   height: $cover-image-height;
+}
+
+.cover-text {
+  position: relative;
+  height: $cover-text-height;
 }
 
 .cover-image:before {
@@ -22,4 +28,25 @@ $cover-image-height: 500px;
   -webkit-background-size: cover;
   background-size: cover;
   z-index: 1;
+}
+
+.main-text {
+  @extend .white-text;
+  @extend .center;
+  padding-top: 50px;
+  z-index: 2;
+  position: relative;
+  font-size: 70px;
+  text-align: center;
+}
+
+.secondary-text {
+  @extend .white-text;
+  @extend .center;
+  padding: 10px 250px;
+  z-index: 2;
+  position: relative;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
 }
