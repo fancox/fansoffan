@@ -49,13 +49,24 @@ var HomePageCard = React.createClass({
   }
 });
 
+var Content = React.createClass({
+  render: function() {
+    return (
+        <div className="content">
+          <HomePageCard imageLink="img/honey-glazed-salmon.jpg"
+                        articleTitle="Honey Glazed Salmon"
+                        articleLink="/"
+                        preparationTime="20min"
+                        cookingTime="20min"/>
+        </div>
+    )
+  }
+});
+
 React.render(<div>
       <NavBar/>
       <CoverPhoto/>
       <CoverText/>
-      <HomePageCard imageLink="img/honey-glazed-salmon.jpg"
-                    articleTitle="Honey Glazed Salmon"
-                    articleLink="/"
-                    preparationTime="20min"
-                    cookingTime="20min"/>
+      <Content/>
+      <RcFooter/>
     </div>, document.getElementById('container'));

@@ -18,7 +18,7 @@ var NavBar = React.createClass({
 var RcFooter = React.createClass({
   render: function() {
     return (
-        <div className="rc-footer">
+        <div className="rc-footer green white-text">
           <div className="text-center rc-collapse-height">
             Copyright © Fansoffan 2015 All rights reserved.<br />
             The Fansoffan content and its associated images are intellectual work of Fansoffan.
