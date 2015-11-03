@@ -40,6 +40,9 @@ app.use(sassMiddleware({
 app.use(express.static(__dirname + '/static', {
   index: false
 }));
+app.use(express.static(__dirname + '/node_modules/react-coast', {
+  index: false
+}));
 
 var helmet = require('helmet');
 app.use(helmet.xssFilter());
