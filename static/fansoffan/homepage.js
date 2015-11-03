@@ -56,7 +56,7 @@ var Content = React.createClass({
 
             <HomePageCard imageLink="img/honey-glazed-salmon.jpg"
                           articleTitle="Honey Glazed Salmon"
-                          articleLink="/"
+                          articleLink="/blog?id=honey-glazed-salmon"
                           preparationTime="20 min"
                           cookingTime="20 min"/>
             <HomePageCard imageLink="img/peanut-butter-cookie.jpg"
