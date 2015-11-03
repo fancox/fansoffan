@@ -96,7 +96,7 @@ Log.console("Listening on port " + server.address().port.toString() + " for HTTP
 app.get(common.routes.homepage,
   function(request, response) {
     //response.redirect(common.routes.example);
-    response.sendfile('static/example.html');
+    response.sendfile('static/fansoffan/index.html');
   });
 
 app.get('/favicon.png',
