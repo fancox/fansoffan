@@ -30,3 +30,16 @@ var RcFooter = React.createClass({
     )
   }
 });
+
+/**
+ * @props cssClassName
+ * @props imageUrl
+ * @props title
+ */
+var PhotoWithTitle = React.createClass({
+  render: function () {
+    return (
+        <div className={this.props.cssClassName}/>
+    )
+  }
+});

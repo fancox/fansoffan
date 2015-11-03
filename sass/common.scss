@@ -1,3 +1,5 @@
+$blog-image-height: 300px;
+
 .nav-logo {
   opacity: 0.86;
   margin: 0 auto;
@@ -8,4 +10,58 @@
 
 .content {
   padding-bottom: 40px;
+}
+
+.blog-image {
+  position: relative;
+  background-color: black;
+  height: $blog-image-height;
+}
+
+@mixin blog-image-before($url) {
+  content: ' ';
+  display: block;
+  position: absolute;
+  background-image: url($url);
+  background-position: 0px -200px;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: $blog-image-height;
+  opacity: 0.8;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  z-index: 1;
+}
+
+.main-text {
+  @extend .white-text;
+  @extend .center;
+  padding-top: 50px;
+  z-index: 2;
+  position: relative;
+  font-size: 70px;
+  text-align: center;
+}
+
+.secondary-text {
+  @extend .white-text;
+  @extend .center;
+  padding: 10px 250px;
+  z-index: 2;
+  position: relative;
+  font-size: 15px;
+  font-weight: 200;
+  text-align: center;
+}
+
+// honey glazed salmon
+.honey-glazed-salmon-image {
+  @extend .blog-image;
+}
+
+.honey-glazed-salmon-image:before {
+  @include blog-image-before('/img/honey-glazed-salmon.jpg');
 }

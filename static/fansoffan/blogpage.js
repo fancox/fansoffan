@@ -20,13 +20,13 @@ var BlogContent = React.createClass({
     var actualContent;
     switch (blogId) {
       case 'honey-glazed-salmon':
-        actualContent = <BlogHoneyGlazedSalmon/>;
+        actualContent = <BlogHoneyGlazedSalmon id={blogId}/>;
         break;
       //add new stuff here
       default:
         <div/>
     }
-    return <div>{actualContent}</div>
+    return <div className="content">{actualContent}</div>
   }
 });
 

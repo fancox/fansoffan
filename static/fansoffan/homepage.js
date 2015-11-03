@@ -53,11 +53,10 @@ var Content = React.createClass({
     return (
         <div className="content">
           <div className="row">
-
             <HomePageCard imageLink="img/honey-glazed-salmon.jpg"
                           articleTitle="Honey Glazed Salmon"
                           articleLink="/blog?id=honey-glazed-salmon"
-                          preparationTime="20 min"
+                          preparationTime="10 min"
                           cookingTime="20 min"/>
             <HomePageCard imageLink="img/peanut-butter-cookie.jpg"
                           articleTitle="Peanut Butter Nutella Sea Salt Cookie"
@@ -70,6 +69,7 @@ var Content = React.createClass({
                           preparationTime="5 min"
                           cookingTime="10 min"/>
           </div>
+          {/*add new stuff here*/}
         </div>
     )
   }
