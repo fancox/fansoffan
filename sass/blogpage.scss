@@ -26,3 +26,12 @@
 .peanut-butter-cookie-image:before {
   @include blog-image-before('/img/peanut-butter-cookie.jpg');
 }
+
+// spinach pasta
+.spinach-pasta-image {
+  @extend .blog-image;
+}
+
+.spinach-pasta-image:before {
+  @include blog-image-before('/img/spinach-pasta.jpg');
+}

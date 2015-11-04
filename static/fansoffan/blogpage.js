@@ -25,6 +25,9 @@ var BlogContent = React.createClass({
       case 'peanut-butter-cookie':
         actualContent = <BlogPeanutButterCookie id={blogId}/>;
         break;
+      case 'spinach-pasta':
+        actualContent = <BlogSpinachPasta id={blogId}/>;
+        break;
       //add new stuff here
       default:
         <div/>
