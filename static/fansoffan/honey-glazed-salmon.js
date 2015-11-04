@@ -12,16 +12,16 @@ var BlogHoneyGlazedSalmon = React.createClass({
             <p>This recipe comes from internet: http://damndelicious.net/2014/08/18/honey-glazed-salmon/</p>
 
             <p>
-              <i className="tiny material-icons">grade</i>Prep Time 10 minutes<br/>
-              <i className="tiny material-icons">grade</i>Cook Time 20 minutes<br/>
-              <i className="tiny material-icons">grade</i>Total Time 30 minutes<br/>
+              <span className="blog-tag white-text teal lighten-2">Prep Time 10 minutes</span>
+              <span className="blog-tag white-text teal lighten-2">Cook Time 20 minutes</span>
+              <span className="blog-tag white-text teal lighten-2">Total Time 30 minutes</span>
+              <span className="blog-tag white-text teal lighten-2">Yield 2 servings</span>
             </p>
 
             <p>
-              Yield 2 servings<br/>
               The easiest, most flavorful salmon you will ever make. And that browned butter lime sauce is to die for!
             </p>
-            <h4>INGREDIENTS</h4>
+            <h5>INGREDIENTS</h5>
             <table className="striped">
               <thead>
               <tr>
@@ -87,7 +87,7 @@ var BlogHoneyGlazedSalmon = React.createClass({
               </tr>
               </tbody>
             </table>
-            <h4>INSTRUCTIONS</h4>
+            <h5>INSTRUCTIONS</h5>
             <ol>
               <li>Preheat oven to 400 degrees F.</li>
               <li>To make the browned butter lime sauce, melt butter in a medium saucepan over medium heat. Cook,
@@ -105,13 +105,20 @@ var BlogHoneyGlazedSalmon = React.createClass({
               <li>Place into oven and bake until completely cooked through, about 8-10 minutes.</li>
               <li>Serve immediately with browned butter lime sauce and lime zest, if desired.</li>
             </ol>
-            <h4>TIPS</h4>
 
-            <p>
-              <i className="tiny material-icons">favorite</i>Make sauce when salmon is in the oven. Save you so much
-              time!<br/>
-              <i className="tiny material-icons">favorite</i>Add roasted whole garlic when cooking salmon for snacks!
-            </p>
+            <div class="row">
+              <div className="col s12 m5">
+                <div className="card-panel orange white-text">
+                  <h6>TIPS</h6>
+                  <ol>
+                    <li>Make sauce when salmon is in the oven. Save you so much
+                      time!
+                    </li>
+                    <li>Add roasted whole garlic when cooking salmon for snacks!</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
     )
