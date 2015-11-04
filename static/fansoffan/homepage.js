@@ -32,7 +32,7 @@ var HomePageCard = React.createClass({
         <div className="col s4 m4">
           <div className="card medium">
             <div className="card-image">
-              <img src={this.props.imageLink}/>
+              <a href={this.props.articleLink}><img src={this.props.imageLink}/></a>
             </div>
             <div className="card-content">
               <p>Preparation time: {this.props.preparationTime} </p>
