@@ -80,7 +80,11 @@ var Content = React.createClass({
                           articleLink="/blog?id=muffin"
                           preparationTime="15 min"
                           cookingTime="20 min"/>
-
+            <HomePageCard imageLink="img/steak.jpg"
+                          articleTitle="Steak"
+                          articleLink="/blog?id=steak"
+                          preparationTime="20 min"
+                          cookingTime="10 min"/>
           </div>
           {/*add new stuff here*/}
         </div>
