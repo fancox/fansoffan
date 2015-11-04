@@ -1,8 +1,28 @@
+@import 'common';
+
 .blog-content {
-  padding: 0 100px 100px 100px;
+  padding: 0 100px 0px 100px;
 }
 
 .blog-tag {
   padding: 5px;
   margin: 0 10px 0 10px;
+}
+
+// honey glazed salmon
+.honey-glazed-salmon-image {
+  @extend .blog-image;
+}
+
+.honey-glazed-salmon-image:before {
+  @include blog-image-before('/img/honey-glazed-salmon.jpg');
+}
+
+// peanut butter cookie
+.peanut-butter-cookie-image {
+  @extend .blog-image;
+}
+
+.peanut-butter-cookie-image:before {
+  @include blog-image-before('/img/peanut-butter-cookie.jpg');
 }

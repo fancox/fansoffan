@@ -60,7 +60,7 @@ var Content = React.createClass({
                           cookingTime="20 min"/>
             <HomePageCard imageLink="img/peanut-butter-cookie.jpg"
                           articleTitle="Peanut Butter Nutella Sea Salt Cookie"
-                          articleLink="/"
+                          articleLink="/blog?id=peanut-butter-cookie"
                           preparationTime="30 min"
                           cookingTime="60 min"/>
             <HomePageCard imageLink="img/spinach-pasta.jpg"
