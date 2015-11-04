@@ -75,6 +75,11 @@ var Content = React.createClass({
                           articleLink="/blog?id=sukiyaki"
                           preparationTime="10 min"
                           cookingTime="15 min"/>
+            <HomePageCard imageLink="img/muffin.jpg"
+                          articleTitle="Banana Crumb Muffins"
+                          articleLink="/blog?id=muffin"
+                          preparationTime="15 min"
+                          cookingTime="20 min"/>
 
           </div>
           {/*add new stuff here*/}
