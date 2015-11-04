@@ -35,3 +35,12 @@
 .spinach-pasta-image:before {
   @include blog-image-before('/img/spinach-pasta.jpg');
 }
+
+// sukiyaki
+.sukiyaki-image {
+  @extend .blog-image;
+}
+
+.sukiyaki-image:before {
+  @include blog-image-before('/img/sukiyaki.jpg');
+}
