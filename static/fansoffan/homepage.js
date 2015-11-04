@@ -65,7 +65,7 @@ var Content = React.createClass({
                           cookingTime="60 min"/>
             <HomePageCard imageLink="img/spinach-pasta.jpg"
                           articleTitle="Spinach Parmesan Pasta"
-                          articleLink="/"
+                          articleLink="/blog?id=spinach-pasta"
                           preparationTime="5 min"
                           cookingTime="10 min"/>
           </div>
