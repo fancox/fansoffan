@@ -34,6 +34,9 @@ var BlogContent = React.createClass({
       case 'muffin':
         actualContent = <BlogMuffin id={blogId}/>;
         break;
+      case 'steak':
+        actualContent = <BlogSteak id={blogId}/>;
+        break;
       //add new stuff here
       default:
         <div/>

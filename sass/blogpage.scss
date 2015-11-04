@@ -53,3 +53,12 @@
 .muffin-image:before {
   @include blog-image-before('/img/muffin.jpg');
 }
+
+// steak
+.steak-image {
+  @extend .blog-image;
+}
+
+.steak-image:before {
+  @include blog-image-before('/img/steak.jpg');
+}
