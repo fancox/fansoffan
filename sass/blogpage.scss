@@ -44,3 +44,12 @@
 .sukiyaki-image:before {
   @include blog-image-before('/img/sukiyaki.jpg');
 }
+
+// muffin
+.muffin-image {
+  @extend .blog-image;
+}
+
+.muffin-image:before {
+  @include blog-image-before('/img/muffin.jpg');
+}
