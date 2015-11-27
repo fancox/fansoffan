@@ -9,13 +9,12 @@ var BlogSpinachPasta = React.createClass({
             <div className="main-text white-text">Spinach Parmesan Pasta</div>
           </div>
           <div className="blog-content">
-            <p>This recipe comes from internet: http://damndelicious.net/2014/08/18/honey-glazed-salmon/</p>
 
             <p>
-              <span className="blog-tag white-text teal lighten-2">Prep Time 5 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Cook Time 10 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Total Time 15 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Yield 2 servings</span>
+              <span className="tag white-text teal lighten-2">Prep Time 5 minutes</span>
+              <span className="tag white-text teal lighten-2">Cook Time 10 minutes</span>
+              <span className="tag white-text teal lighten-2">Total Time 15 minutes</span>
+              <span className="tag white-text teal lighten-2">Yield 2 servings</span>
             </p>
 
             <h5>INGREDIENTS</h5>

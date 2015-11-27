@@ -9,13 +9,13 @@ var BlogHoneyGlazedSalmon = React.createClass({
             <div className="main-text white-text">Honey Glazed Salmon</div>
           </div>
           <div className="blog-content">
-            <p>This recipe comes from internet: http://damndelicious.net/2014/08/18/honey-glazed-salmon/</p>
+            <p>This recipe comes from internet <a href="http://damndelicious.net/2014/08/18/honey-glazed-salmon/">click here</a></p>
 
             <p>
-              <span className="blog-tag white-text teal lighten-2">Prep Time 10 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Cook Time 20 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Total Time 30 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Yield 2 servings</span>
+              <div className="tag white-text teal lighten-2">Prep Time 10 minutes</div>
+              <div className="tag white-text teal lighten-2">Cook Time 20 minutes</div>
+              <span className="tag white-text teal lighten-2">Total Time 30 minutes</span>
+              <span className="tag white-text teal lighten-2">Yield 2 servings</span>
             </p>
 
             <p>

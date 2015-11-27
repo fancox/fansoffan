@@ -10,10 +10,10 @@ var BlogSukiyaki = React.createClass({
           </div>
           <div className="blog-content">
             <p>
-              <span className="blog-tag white-text teal lighten-2">Prep Time 10 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Cook Time 15 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Total Time 25 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Yield 2 servings</span>
+              <span className="tag white-text teal lighten-2">Prep Time 10 minutes</span>
+              <span className="tag white-text teal lighten-2">Cook Time 15 minutes</span>
+              <span className="tag white-text teal lighten-2">Total Time 25 minutes</span>
+              <span className="tag white-text teal lighten-2">Yield 2 servings</span>
             </p>
 
             <h5>INGREDIENTS</h5>
