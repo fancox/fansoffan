@@ -21,10 +21,10 @@ var RcFooter = React.createClass({
         <div className="rc-footer green white-text">
           <div className="text-center rc-collapse-height">
             Copyright © Fansoffan 2015 All rights reserved.<br />
-            The Fansoffan content and its associated images are intellectual work of Fansoffan.
+            The content and its associated images on this website are intellectual work of Fan Chen.
           </div>
           <div className="pull-right text-right">
-            Contact: [to be added]
+            Contact: f9chen@gmail.com <a href="https://www.linkedin.com/in/fchen1" className="blue-text text-lighten-3">Linkedin</a>
           </div>
         </div>
     )

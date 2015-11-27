@@ -10,10 +10,10 @@ var BlogSteak = React.createClass({
           </div>
           <div className="blog-content">
             <p>
-              <span className="blog-tag white-text teal lighten-2">Prep Time 20 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Cook Time 10 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Total Time 30 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Yield 2 servings</span>
+              <span className="tag white-text teal lighten-2">Prep Time 20 minutes</span>
+              <span className="tag white-text teal lighten-2">Cook Time 10 minutes</span>
+              <span className="tag white-text teal lighten-2">Total Time 30 minutes</span>
+              <span className="tag white-text teal lighten-2">Yield 2 servings</span>
             </p>
 
             <h5>INGREDIENTS</h5>
@@ -61,7 +61,7 @@ var BlogSteak = React.createClass({
               <li>Preheat the oven to 375F</li>
               <li>Preheat skillet over stop top.</li>
               <li>Medium heat, sear steak 2min each side.</li>
-              <li>Baked in oven for 7 min for medium rear doneness.</li>
+              <li>Baked in oven for 7 min for medium rare doneness.</li>
             </ol>
 
           </div>

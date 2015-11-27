@@ -10,10 +10,10 @@ var BlogMuffin = React.createClass({
           </div>
           <div className="blog-content">
             <p>
-              <span className="blog-tag white-text teal lighten-2">Prep Time 15 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Cook Time 20 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Total Time 35 minutes</span>
-              <span className="blog-tag white-text teal lighten-2">Yield a dozen</span>
+              <span className="tag white-text teal lighten-2">Prep Time 15 minutes</span>
+              <span className="tag white-text teal lighten-2">Cook Time 20 minutes</span>
+              <span className="tag white-text teal lighten-2">Total Time 35 minutes</span>
+              <span className="tag white-text teal lighten-2">Yield a dozen</span>
             </p>
 
             <h5>INGREDIENTS</h5>
