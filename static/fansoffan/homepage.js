@@ -86,6 +86,13 @@ var Content = React.createClass({
                           preparationTime="20 min"
                           cookingTime="10 min"/>
           </div>
+          <div className="row">
+            <HomePageCard imageLink="img/burger.jpg"
+                          articleTitle="Burger"
+                          articleLink="/blog?id=burger"
+                          preparationTime="15 min"
+                          cookingTime="20 min"/>
+          </div>
           {/*add new stuff here*/}
         </div>
     )

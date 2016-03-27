@@ -57,3 +57,12 @@
 .steak-image:before {
   @include blog-image-before('/img/steak.jpg');
 }
+
+// burger
+.burger-image {
+  @extend .blog-image;
+}
+
+.burger-image:before {
+  @include blog-image-before('/img/burger.jpg');
+}
