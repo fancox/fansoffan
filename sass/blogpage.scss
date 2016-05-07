@@ -66,3 +66,12 @@
 .burger-image:before {
   @include blog-image-before('/img/burger.jpg');
 }
+
+// curry
+.curry-image {
+  @extend .blog-image;
+}
+
+.curry-image:before {
+  @include blog-image-before('/img/curry.jpg');
+}
