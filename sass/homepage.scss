@@ -8,8 +8,8 @@ $cover-text-height: 250px;
 }
 
 .cover-text {
-  position: relative;
-  height: $cover-text-height;
+  position: absolute;
+  top: $cover-text-height;
 }
 
 .cover-image:before {

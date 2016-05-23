@@ -43,7 +43,7 @@ app.use(express.static(__dirname + '/static', {
 app.use('/react-coast/css', express.static(__dirname + '/node_modules/react-coast/rc-gen/css', {
   index: false
 }));
-app.use('/palette', express.static(__dirname + '/node_modules/react-coast/node_modules/palette-css/pl-gen/css', {
+app.use('/palette', express.static(__dirname + '/node_modules/palette-css/pl-gen/css', {
   index: false
 }));
 
