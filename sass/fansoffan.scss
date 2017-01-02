@@ -1,0 +1,30 @@
+@import '../node_modules/palette-css/sass/palette';
+
+.max-width {
+  width: 100%;
+}
+
+.row {
+  margin-bottom: 0 !important;
+}
+
+.vertical-margin-thick {
+  margin-top: margin('thick');
+  margin-bottom: margin('thick');
+}
+
+.vertical-padding-thick {
+  padding-top: margin('thick');
+  padding-bottom: margin('thick');
+}
+
+.hero-text {
+  @extend .text-large;
+  @extend .text-center;
+  float: left;
+  margin-top: 100px;
+}
+
+.bordered {
+  border: 5px double color('grey', 'lighten-3');
+}

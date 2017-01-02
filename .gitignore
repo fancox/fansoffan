@@ -7,3 +7,5 @@ node_modules/*
 *.iml
 .idea/
 .idea/*
+.sass-cache/
+.sass-cache/*

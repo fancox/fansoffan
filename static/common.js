@@ -5,7 +5,7 @@ function generate_common() {
 
   common.routes = {
     homepage: '/',
-    blog: '/blog'
+    test: '/test',
   };
 
   String.prototype.capitalize = function() {
